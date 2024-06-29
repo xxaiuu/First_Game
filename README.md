@@ -8,3 +8,15 @@ Goals
 - Learn the syntax of C# and become more comfortable programming in it
 - Be able to take this "base" program and expand on it
 - Have fun!
+
+
+Notes
+- Project setting > Rendering > Textures 
+  - set default texture filter to "Nearest" to disable the smoothing affect
+- Scenes are reusable building blocks
+- Nodes are the objects being made
+  - (sub nodes) charaistics such as hitbox, what it looks like/sprite
+  - (main nodes) actual objects such as player or the camera
+- script is the coding aspect
+  - behavior/how to act
+
