@@ -9,9 +9,9 @@ public partial class kill_zone : Area2D
 	private void _on_body_entered(Node2D body)
 	{
 		GD.Print("You Died!");
-		_timer =  GetNode<Timer>("Timer");
+		_timer =  GetNode<Timer>("Timer");	//references the Timer Node
 		_timer.Start();
-		
+
 	}
 
 	private void _on_timer_timeout()
