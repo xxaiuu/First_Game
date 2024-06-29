@@ -43,4 +43,5 @@ Notes
       - Collision > Layer > change from 1 to 2
       - In Coin, Mask it such that only 2 will be triggered
 - We can see all the signals relating to the node when clicking on the node tab on the right side
+  - connecting signals does not work with an external editor such as VS Code, will need to turn it off in order for it to generate
 
