@@ -2,20 +2,30 @@
 First Game on Godot following the youtube tutorial, "How to make a Video Game - Godot Beginner Tutorial" <br>
 but instead of using the godot language, I will be working through the tutorial in C#
 
+<br>
 
-Goals
+### Goals
 - Become more familiar with Godot
 - Learn the syntax of C# and become more comfortable programming in it
 - Be able to take this "base" program and expand on it
 - Have fun!
 
+<br>
+
+-----
+
+### Resources
+
+(Tutorial Video)
+https://youtu.be/LOhfqjmasi0?si=x3LwKgkkxKnuI81H <br>
+(C# Documentation for Godot)
+https://cyoann.github.io/GodotSharpAPI/html/c7d41d90-59b4-4e80-d334-bd2586caedfd.htm
 
 <br>
-Resources
-https://cyoann.github.io/GodotSharpAPI/html/c7d41d90-59b4-4e80-d334-bd2586caedfd.htm
-<br>
-<br>
-Notes
+
+-----
+
+### Notes
 
 - Project setting > Rendering > Textures 
   - set default texture filter to "Nearest" to disable the smoothing affect
