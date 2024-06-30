@@ -16,6 +16,7 @@ https://cyoann.github.io/GodotSharpAPI/html/c7d41d90-59b4-4e80-d334-bd2586caedfd
 <br>
 <br>
 Notes
+
 - Project setting > Rendering > Textures 
   - set default texture filter to "Nearest" to disable the smoothing affect
 - Scenes are reusable building blocks
@@ -45,3 +46,13 @@ Notes
 - We can see all the signals relating to the node when clicking on the node tab on the right side
   - connecting signals does not work with an external editor such as VS Code, will need to turn it off in order for it to generate
 - RayCast2D will shoot in invisible arrow out, which you can use as collision detection
+- Can bind keys to action by going to project setting and the input map tab. From there, you can use the action name that you've given it in your code
+- There's an Audio tab that you can use to add more buses and control the sound levels from your various music/sounds
+- Your audio node can be routed to those bus created
+- Audio can get cut off when the scene resets, you can drag the audio node into your scene folder/make it as a scene
+  - then we can add that music scene as an auto load 
+    - Project Setting > Auto Load > Click on Folder > go to your scene folder > Add in the music scene
+- Coin pick up sound is time sensitive. If we free up the object before the sound is finished playing, the SFX will be cut short
+  - waiting for sound to finish before releasing the object may cause strange interaction between the player and coin (infinite loop)
+  - This can be fixed through code OR with an AnimationPlayer Node
+  - With the Animation Node completed, you would just need to go into your script to tell it which animation to play
