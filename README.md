@@ -1,3 +1,8 @@
+
+https://github.com/xxaiuu/First_Game/assets/101294536/d5038952-6db1-45ab-8220-b31edf422103
+
+<br>
+
 # About
 First Game on Godot following the youtube tutorial, "How to make a Video Game - Godot Beginner Tutorial" <br>
 but instead of using the godot language, I will be working through the tutorial in C#
